@@ -14,11 +14,20 @@ header{
     width: 7.5%;
     padding-top: 52px;
 }
-ul{
+nav{
     display: flex;
     gap: 53px;
     padding-top: 73px;
 }
+.nav{
+    font-size: 20px;
+}
+.magnifi{
+    width: 25.5px;
+    height: 25.5px;
+    padding: top 72px; ;
+}
+
 .section1{
     width: 84.5%;
     height: 613px;
@@ -39,11 +48,16 @@ h2{
 .cards{
     display: flex;
     justify-content: space-between;
+    margin-top: 70px;
+    
 }
 .card{
     width: 29.5%;
-    padding-top: 110px;
-    /* border: 2px solid red; */
+    border: 2px solid #707070;
+    box-shadow: 2px 4px  #707070;
+
+   
+ 
 
 }
 .ptxt{
@@ -51,6 +65,12 @@ h2{
     margin-top: 20px;
     font-size: 30px;
 
+}
+.more{
+    margin-top: 73px;
+    padding-left: 414px;
+    padding-bottom: 35px;
+    font-size: 24px;
 }
 .cardimg{
     max-width: 100%;
@@ -76,10 +96,50 @@ footer{
     max-width: 1920px;
     width: 100%;
     margin-top: 75px;
+   margin-bottom: 50px;
+    display: flex;
     background-color: #2E2E2E;
 }
-.howtowith{
+.howtowhith{
     padding-left: 140px;
     padding-top: 49px;
     padding-bottom: 55px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    height: 61px;
+  margin-left: 374px;
+   padding-top: 60px;
+    
+   
+}
+.txtcontacti{
+    font-size: 20px;
+    color: aliceblue;
+
+}
+.txtinfo{
+    font-size: 13px;
+    color: aliceblue;
+    margin-top: 6px;
+}
+
+
+li{
+    font-size: 13px;
+    color: aliceblue;
+
+}
+.adress{
+    margin-left: 363px;
+    padding-top: 60px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    gap: 34.1px;
+    margin-left: 295px;
+    padding-top: 74px;
 }
