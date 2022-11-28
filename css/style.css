@@ -27,3 +27,36 @@ ul{
     background-image: url("../image/mainimage.png");
 
 }
+.section2{
+    width: 84.5%;
+    margin: 0 auto;
+    margin-top: 138px;
+
+}
+h2{
+    font-size: 53px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 29.5%;
+    padding-top: 110px;
+    border: 2px solid red;
+
+}
+.ptxt{
+    
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+.cardimg{
+    max-width: 100%;
+}
+.ptxt2{
+    font-size: 18px;
+    margin-top: 33px;
+}
+
