@@ -148,7 +148,7 @@ li{
     padding-top: 74px;
 }
 
-@media (max-width:320px) {
+@media (max-width:480px) {
 
     header{
         max-width: 100%;
