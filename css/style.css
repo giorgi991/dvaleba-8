@@ -279,11 +279,20 @@ li{
             text-align: center;
           
         }
+        .faceinsta{
+            width: 16.9px;
+            height: 16.9px;
+        }
 
         .social{
+            position: relative;
+            margin: 0 auto;
             display: flex;
-            justify-content: space-between;
-           padding-left: 10px;
+            gap: 13px;
+            padding-bottom: 23px;
+
+            
+            
            
         }
 
