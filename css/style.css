@@ -148,7 +148,7 @@ li{
     padding-top: 74px;
 }
 
-@media screen and (max-width:320px) {
+@media screen end (max-width:320px) {
     header{
         max-width: 100%;
         width: 100%;
