@@ -148,7 +148,12 @@ li{
     padding-top: 74px;
 }
 
-@media (max-width:480px) {
+@media  screen and (max-width:480px) {
+    .conteiner{
+        max-width: 480px;
+        width: 100%;
+        /* border: 2px solid green; */
+    }
 
     header{
         max-width: 100%;
