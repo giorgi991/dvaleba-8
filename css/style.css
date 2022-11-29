@@ -156,8 +156,7 @@ li{
     }
 
     header{
-        max-width: 100%;
-        width: 100%;
+        width: 90%;
        display: flex;
        /* border: 2px solid red; */
     }
@@ -177,14 +176,13 @@ li{
         margin-top: 17px;
     }
     .section1{
-        width: 100%;
+        width: 90%;
         height: 253px;
         margin-top: 0%;
        background-image: url("../image/yannis-papanastasopoulos-yWF2LLan-_o-unsplash.svg")
     }
     .section2{
-        max-width: 320px;
-        width: 100%;
+        width: 90%;
         margin-top: 91px;
         /* border: 2px solid red; */
            }
@@ -248,8 +246,9 @@ li{
             
         }
         footer{
-            max-width: 320px;
-            width: 100%;
+       
+            width: 90%;
+            margin: 0 auto;
             margin-top: 28.5px;
            margin-bottom: 50px;
             display: flex;
