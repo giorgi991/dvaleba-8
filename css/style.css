@@ -114,7 +114,7 @@ footer{
     display: flex;
     flex-direction: column;
     height: 61px;
-  margin-left: 374px;
+  margin-left: 300px;
    padding-top: 60px;
     
    
@@ -137,7 +137,7 @@ li{
 
 }
 .adress{
-    margin-left: 363px;
+    margin-left: 300px;
     padding-top: 60px;
 }
 .social{
@@ -159,6 +159,7 @@ li{
     .howto{
         padding-top: 13px;
         margin-left: 27px;
+        padding-bottom: 22px;
         width: 20%;
         
     }
@@ -221,8 +222,73 @@ li{
             margin-top: 39px;
             /* padding-left: 414px; */
             text-align: end;
+            padding-right: 3px;
             padding-bottom: 19px;
             font-size: 11px;
+            font-weight: bolder #707070;
+        }
+        .load{
+            text-align: center;
+            font-size: 9px;
+            font-weight: bold #707070;
+            margin-top: 26px;
+
+        }
+        .section3{
+            max-width:320px ;
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 26px;
+            
+        }
+        footer{
+            max-width: 320px;
+            width: 100%;
+            margin-top: 28.5px;
+           margin-bottom: 50px;
+            display: flex;
+            flex-direction:column;
+            background-color: #2E2E2E;
+        }
+        .howtowhith{
+            display: none;
+            /* padding-left: 140px;
+            padding-top: 49px;
+            padding-bottom: 55px; */
+        }
+        .contact{
+            position: relative;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-top: 100px;
+            margin-top: -23px;
+    
+        
+         
+            
+           
+        }
+       
+
+        .adress{
+            position: absolute;
+            margin-left: 50px;
+            padding-top: 21px;
+            text-align: center;
+          
         }
 
-}
+        .social{
+            display: flex;
+            justify-content: space-between;
+           padding-left: 10px;
+           
+        }
+
+
+
+
+    }
+        
